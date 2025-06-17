@@ -46,3 +46,8 @@ int main()
     
     return 0;
 }
+
+/**
+ * Time Complexity: O(N) where N=size of the array
+ * Space Complexity : O(1)
+ */
