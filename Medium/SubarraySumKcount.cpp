@@ -63,3 +63,14 @@ int main() {
 
     return 0;
 }
+
+/**
+ * Time Complexity: O(N) or O(N*logN) depending on which map data structure 
+ * we are using, where N = size of the array.
+ * Reason: For example, if we are using an unordered_map data structure in C++ 
+ * the time complexity will be O(N) but if we are using a map data structure, 
+ * the time complexity will be O(N*logN). The least complexity will be O(N) as 
+ * we are using a loop to traverse the array.
+ * 
+ * Space Complexity: O(N) as we are using a map data structure.
+ */

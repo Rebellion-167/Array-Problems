@@ -81,3 +81,10 @@ int main() {
 
     return 0;
 }
+
+/**
+ * Time Complexity: O(N*N) + O(N*N).One O(N*N) is for transposing the matrix 
+ * and the other is for reversing the matrix.
+ * 
+ * Space Complexity: O(1).
+ */
